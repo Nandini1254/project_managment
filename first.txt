@@ -2,15 +2,32 @@ git
 
 
 git diff --cached
-git reset file_chaged
+git reset --hard file_chaged
 git restore
 
+#to add in stage
 
-git add -->to add in stage
-git commit -a
+git add
+
+#for commit
+
+git commit --amend
 git commit -m "message"
 
 
-
+#to see add commit logs
 git log
  
+
+#branch
+
+=>to see
+git branch
+
+=>to create and switch
+git checkout -b new-branch-name
+
+//or
+
+git branch new-branch
+git checkout new-branch
