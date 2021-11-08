@@ -21,7 +21,9 @@ git log
 
 #branch
 
-=>to see all branches
+
+=>to see all branches 
+
 git branch
 
 =>to create and switch
@@ -30,6 +32,7 @@ git checkout -b new-branch-name
 //or
 
 git branch new-branch
+
 git checkout new-branch
 
 after staging
