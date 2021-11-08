@@ -21,7 +21,7 @@ git log
 
 #branch
 
-=>to see
+=>to see all branches
 git branch
 
 =>to create and switch
