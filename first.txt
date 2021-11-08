@@ -1,1 +1,16 @@
-text
+git 
+
+
+git diff --cached
+git reset file_chaged
+git restore
+
+
+git add -->to add in stage
+git commit -a
+git commit -m "message"
+
+
+
+git log
+ 
