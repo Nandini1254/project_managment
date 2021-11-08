@@ -21,9 +21,7 @@ git log
 
 #branch
 
-
-=>to see all branches 
-
+=>to see 
 git branch
 
 =>to create and switch
@@ -32,11 +30,12 @@ git checkout -b new-branch-name
 //or
 
 git branch new-branch
-
 git checkout new-branch
 
 after staging
  git push -u origin new-branch
+
+git push --forse-with-lease
  
  git push
 
@@ -48,4 +47,8 @@ git checkout master
 git pull
 git checkout to existing branch
 
+to resolve changing to main branch
+
 git rebase master
+git rebase --continue
+
